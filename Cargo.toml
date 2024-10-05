@@ -1,0 +1,24 @@
+[package]
+name = "circuit-to-tensor"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tuomas Laakkonen <tsrl@mit.edu>"]
+description = "Utilities to convert between Clifford+T circuits, signature tensors and Waring decompositions"
+
+[dependencies]
+clap = { version = "4.0.18", features = ["derive"] }
+console = "0.15.2"
+indicatif = "0.17.1"
+ndarray = "0.15.6"
+ndarray-npy = { version = "0.8.1", default-features = false }
+openqasm = { git = "https://github.com/tuomas56/openqasm-rs", features = ["ariadne"] }
+rand = "0.8.5"
+tempfile = "3.3.0"
+quizx = { git = "https://github.com/zxcalc/quizx.git" }
+serde = { version = "1.0.147", features = ["derive"] }
+serde_json = "1.0.87"
+vandaele_et_al = { git = "https://github.com/VivienVandaele/quantum_circuit_optimization.git", package = "quantum_circuit_optimization" }
+
+[dev-dependencies]
+rayon = "1.10.0"
+serial_test = "3.1.1"
