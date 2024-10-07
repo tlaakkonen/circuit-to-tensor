@@ -1,0 +1,51 @@
+{
+  "invocation": {
+    "qubits": null,
+    "ancilla": null,
+    "steps": 50000,
+    "optimal_h": true,
+    "emit": [
+      "CircuitQASM",
+      "BlockQASM",
+      "MatrixNumpy",
+      "Tensor",
+      "Log"
+    ],
+    "zx_preopt": true,
+    "stomp_rounds": 20000,
+    "stomp_restarts": 20,
+    "clifford": "Quizx",
+    "basic_opt": true,
+    "verify": false,
+    "rank": [],
+    "timeout": 3600.0,
+    "output": ".",
+    "files": [
+      "ui3.group0.toffolis.qasm"
+    ]
+  },
+  "files": [
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/circuit_sources/unary_iteration/ui3.group0.toffolis.qasm",
+      "qubits": 14,
+      "tcount": {
+        "initial": 98,
+        "zx_preopt": 52,
+        "basic_opt": 52
+      },
+      "hcount": {
+        "initial": 8,
+        "first_anneal": 6,
+        "resynth": 6,
+        "second_anneal": 6
+      },
+      "blocks": [
+        {
+          "qubits": 20,
+          "initial": 52,
+          "rank": {}
+        }
+      ]
+    }
+  ]
+}

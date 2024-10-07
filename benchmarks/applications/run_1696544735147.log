@@ -1,0 +1,212 @@
+{
+  "invocation": {
+    "qubits": null,
+    "ancilla": null,
+    "steps": 50000,
+    "optimal_h": true,
+    "emit": [
+      "BlockQASM",
+      "CircuitQASM",
+      "Tensor",
+      "MatrixNumpy",
+      "Log"
+    ],
+    "zx_preopt": true,
+    "stomp_rounds": 20000,
+    "stomp_restarts": 20,
+    "clifford": "Quizx",
+    "basic_opt": true,
+    "verify": false,
+    "rank": [],
+    "timeout": 3600.0,
+    "output": "compiled/qinf/",
+    "files": [
+      "output/cuccaro_adder_n10.qasm",
+      "output/cuccaro_adder_n3.qasm",
+      "output/cuccaro_adder_n4.qasm",
+      "output/cuccaro_adder_n5.qasm",
+      "output/cuccaro_adder_n6.qasm",
+      "output/cuccaro_adder_n7.qasm",
+      "output/cuccaro_adder_n8.qasm",
+      "output/cuccaro_adder_n9.qasm"
+    ]
+  },
+  "files": [
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/cuccaro_adder_n10.qasm",
+      "qubits": 21,
+      "tcount": {
+        "initial": 140,
+        "zx_preopt": 72,
+        "basic_opt": 72
+      },
+      "hcount": {
+        "initial": 38,
+        "first_anneal": 16,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 36,
+          "initial": 72,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/cuccaro_adder_n3.qasm",
+      "qubits": 7,
+      "tcount": {
+        "initial": 42,
+        "zx_preopt": 16,
+        "basic_opt": 16
+      },
+      "hcount": {
+        "initial": 10,
+        "first_anneal": 2,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 8,
+          "initial": 16,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/cuccaro_adder_n4.qasm",
+      "qubits": 9,
+      "tcount": {
+        "initial": 56,
+        "zx_preopt": 24,
+        "basic_opt": 24
+      },
+      "hcount": {
+        "initial": 14,
+        "first_anneal": 4,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 12,
+          "initial": 24,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/cuccaro_adder_n5.qasm",
+      "qubits": 11,
+      "tcount": {
+        "initial": 70,
+        "zx_preopt": 32,
+        "basic_opt": 32
+      },
+      "hcount": {
+        "initial": 18,
+        "first_anneal": 6,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 16,
+          "initial": 32,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/cuccaro_adder_n6.qasm",
+      "qubits": 13,
+      "tcount": {
+        "initial": 84,
+        "zx_preopt": 40,
+        "basic_opt": 40
+      },
+      "hcount": {
+        "initial": 22,
+        "first_anneal": 8,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 20,
+          "initial": 40,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/cuccaro_adder_n7.qasm",
+      "qubits": 15,
+      "tcount": {
+        "initial": 98,
+        "zx_preopt": 48,
+        "basic_opt": 48
+      },
+      "hcount": {
+        "initial": 26,
+        "first_anneal": 10,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 24,
+          "initial": 48,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/cuccaro_adder_n8.qasm",
+      "qubits": 17,
+      "tcount": {
+        "initial": 112,
+        "zx_preopt": 56,
+        "basic_opt": 56
+      },
+      "hcount": {
+        "initial": 30,
+        "first_anneal": 12,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 28,
+          "initial": 56,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/cuccaro_adder_n9.qasm",
+      "qubits": 19,
+      "tcount": {
+        "initial": 126,
+        "zx_preopt": 64,
+        "basic_opt": 64
+      },
+      "hcount": {
+        "initial": 34,
+        "first_anneal": 14,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 32,
+          "initial": 64,
+          "rank": {}
+        }
+      ]
+    }
+  ]
+}

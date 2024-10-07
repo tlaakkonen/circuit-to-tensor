@@ -1,0 +1,419 @@
+{
+  "invocation": {
+    "qubits": null,
+    "ancilla": null,
+    "steps": 50000,
+    "optimal_h": true,
+    "emit": [
+      "CircuitQASM",
+      "BlockQASM",
+      "MatrixNumpy",
+      "Tensor",
+      "Log"
+    ],
+    "zx_preopt": true,
+    "stomp_rounds": 20000,
+    "stomp_restarts": 20,
+    "clifford": "Quizx",
+    "basic_opt": true,
+    "verify": false,
+    "rank": [],
+    "timeout": 3600.0,
+    "output": "compiled/qinf/",
+    "files": [
+      "output/hamming_weight_n10.qasm",
+      "output/hamming_weight_n11.qasm",
+      "output/hamming_weight_n12.qasm",
+      "output/hamming_weight_n13.qasm",
+      "output/hamming_weight_n14.qasm",
+      "output/hamming_weight_n15.qasm",
+      "output/hamming_weight_n16.qasm",
+      "output/hamming_weight_n17.qasm",
+      "output/hamming_weight_n18.qasm",
+      "output/hamming_weight_n19.qasm",
+      "output/hamming_weight_n20.qasm",
+      "output/hamming_weight_n4.qasm",
+      "output/hamming_weight_n5.qasm",
+      "output/hamming_weight_n6.qasm",
+      "output/hamming_weight_n7.qasm",
+      "output/hamming_weight_n8.qasm",
+      "output/hamming_weight_n9.qasm"
+    ]
+  },
+  "files": [
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n10.qasm",
+      "qubits": 18,
+      "tcount": {
+        "initial": 56,
+        "zx_preopt": 56,
+        "basic_opt": 56
+      },
+      "hcount": {
+        "initial": 7,
+        "first_anneal": 6,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 24,
+          "initial": 56,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n11.qasm",
+      "qubits": 19,
+      "tcount": {
+        "initial": 56,
+        "zx_preopt": 56,
+        "basic_opt": 56
+      },
+      "hcount": {
+        "initial": 7,
+        "first_anneal": 6,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 25,
+          "initial": 56,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n12.qasm",
+      "qubits": 22,
+      "tcount": {
+        "initial": 70,
+        "zx_preopt": 70,
+        "basic_opt": 70
+      },
+      "hcount": {
+        "initial": 9,
+        "first_anneal": 8,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 30,
+          "initial": 70,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n13.qasm",
+      "qubits": 23,
+      "tcount": {
+        "initial": 70,
+        "zx_preopt": 70,
+        "basic_opt": 70
+      },
+      "hcount": {
+        "initial": 9,
+        "first_anneal": 8,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 31,
+          "initial": 70,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n14.qasm",
+      "qubits": 25,
+      "tcount": {
+        "initial": 77,
+        "zx_preopt": 77,
+        "basic_opt": 77
+      },
+      "hcount": {
+        "initial": 10,
+        "first_anneal": 8,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 33,
+          "initial": 77,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n15.qasm",
+      "qubits": 26,
+      "tcount": {
+        "initial": 77,
+        "zx_preopt": 77,
+        "basic_opt": 77
+      },
+      "hcount": {
+        "initial": 10,
+        "first_anneal": 8,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 34,
+          "initial": 77,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n16.qasm",
+      "qubits": 31,
+      "tcount": {
+        "initial": 105,
+        "zx_preopt": 105,
+        "basic_opt": 105
+      },
+      "hcount": {
+        "initial": 14,
+        "first_anneal": 14,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 45,
+          "initial": 105,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n17.qasm",
+      "qubits": 32,
+      "tcount": {
+        "initial": 105,
+        "zx_preopt": 105,
+        "basic_opt": 105
+      },
+      "hcount": {
+        "initial": 14,
+        "first_anneal": 14,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 46,
+          "initial": 105,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n18.qasm",
+      "qubits": 34,
+      "tcount": {
+        "initial": 112,
+        "zx_preopt": 112,
+        "basic_opt": 112
+      },
+      "hcount": {
+        "initial": 15,
+        "first_anneal": 14,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 48,
+          "initial": 112,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n19.qasm",
+      "qubits": 35,
+      "tcount": {
+        "initial": 112,
+        "zx_preopt": 112,
+        "basic_opt": 112
+      },
+      "hcount": {
+        "initial": 15,
+        "first_anneal": 14,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 49,
+          "initial": 112,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n20.qasm",
+      "qubits": 38,
+      "tcount": {
+        "initial": 126,
+        "zx_preopt": 126,
+        "basic_opt": 126
+      },
+      "hcount": {
+        "initial": 17,
+        "first_anneal": 16,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 54,
+          "initial": 126,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n4.qasm",
+      "qubits": 7,
+      "tcount": {
+        "initial": 21,
+        "zx_preopt": 21,
+        "basic_opt": 21
+      },
+      "hcount": {
+        "initial": 2,
+        "first_anneal": 2,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 9,
+          "initial": 21,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n5.qasm",
+      "qubits": 8,
+      "tcount": {
+        "initial": 21,
+        "zx_preopt": 21,
+        "basic_opt": 21
+      },
+      "hcount": {
+        "initial": 2,
+        "first_anneal": 2,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 10,
+          "initial": 21,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n6.qasm",
+      "qubits": 10,
+      "tcount": {
+        "initial": 28,
+        "zx_preopt": 28,
+        "basic_opt": 28
+      },
+      "hcount": {
+        "initial": 3,
+        "first_anneal": 2,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 12,
+          "initial": 28,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n7.qasm",
+      "qubits": 11,
+      "tcount": {
+        "initial": 28,
+        "zx_preopt": 28,
+        "basic_opt": 28
+      },
+      "hcount": {
+        "initial": 3,
+        "first_anneal": 2,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 13,
+          "initial": 28,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n8.qasm",
+      "qubits": 15,
+      "tcount": {
+        "initial": 49,
+        "zx_preopt": 49,
+        "basic_opt": 49
+      },
+      "hcount": {
+        "initial": 6,
+        "first_anneal": 6,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 21,
+          "initial": 49,
+          "rank": {}
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/thc_compilation/output/hamming_weight_n9.qasm",
+      "qubits": 16,
+      "tcount": {
+        "initial": 49,
+        "zx_preopt": 49,
+        "basic_opt": 49
+      },
+      "hcount": {
+        "initial": 6,
+        "first_anneal": 6,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 22,
+          "initial": 49,
+          "rank": {}
+        }
+      ]
+    }
+  ]
+}

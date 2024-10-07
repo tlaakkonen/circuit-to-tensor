@@ -1,0 +1,80 @@
+{
+  "invocation": {
+    "qubits": null,
+    "ancilla": null,
+    "steps": 50000,
+    "optimal_h": true,
+    "emit": [
+      "CircuitQASM",
+      "BlockQASM",
+      "MatrixNumpy",
+      "Tensor",
+      "Log"
+    ],
+    "zx_preopt": true,
+    "stomp_rounds": 20000,
+    "stomp_restarts": 20,
+    "clifford": "Quizx",
+    "basic_opt": false,
+    "verify": true,
+    "rank": [
+      "TODD"
+    ],
+    "timeout": 3600.0,
+    "output": "circuits/qinf/",
+    "files": [
+      "circuits/unoptimized/gf2^2_mult.qasm",
+      "circuits/unoptimized/gf2^3_mult.qasm"
+    ]
+  },
+  "files": [
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/circuits/unoptimized/gf2^2_mult.qasm",
+      "qubits": 6,
+      "tcount": {
+        "initial": 28,
+        "zx_preopt": 18,
+        "basic_opt": null
+      },
+      "hcount": {
+        "initial": 5,
+        "first_anneal": 0,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 6,
+          "initial": 18,
+          "rank": {
+            "TODD": 18
+          }
+        }
+      ]
+    },
+    {
+      "path": "/Users/tuomaslaakkonen/Desktop/circ-tensor/circuits/unoptimized/gf2^3_mult.qasm",
+      "qubits": 9,
+      "tcount": {
+        "initial": 63,
+        "zx_preopt": 45,
+        "basic_opt": null
+      },
+      "hcount": {
+        "initial": 13,
+        "first_anneal": 0,
+        "resynth": 0,
+        "second_anneal": 0
+      },
+      "blocks": [
+        {
+          "qubits": 9,
+          "initial": 45,
+          "rank": {
+            "TODD": 31
+          }
+        }
+      ]
+    }
+  ]
+}
