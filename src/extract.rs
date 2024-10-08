@@ -17,12 +17,12 @@ pub fn find_signature_tensor(a: &nd::Array2<bool>) -> nd::Array3<bool> {
 /// it is element (i, j, j) and for the x_i term is is element (i, i, i).
 fn find_phase_polynomial(a: &nd::Array2<bool>) -> nd::Array3<usize> {
     let n = a.shape()[0];
-    let np = n % 8;
     let r = a.shape()[1];
 
     // Decompose a into a sequence of parities of size at most 3
     let mut s = nd::Array3::from_elem((n, n, n), 0);
     for l in 0..r {
+        let np = a.column(l).iter().map(|&v| v as usize).sum::<usize>() % 8;
         for i in 0..n {
             for j in 0..i {
                 for k in 0..j {
@@ -32,7 +32,7 @@ fn find_phase_polynomial(a: &nd::Array2<bool>) -> nd::Array3<usize> {
                 s[(i, j, j)] = (s[(i, j, j)] + (11 - np) * (a[(i, l)] & a[(j, l)]) as usize) % 8;
             }
 
-            s[(i, i, i)] = (s[(i, i, i)] + (np + 6) * (np + 5) * a[(i, l)] as usize) % 8;
+            s[(i, i, i)] = (s[(i, i, i)] + (((np + 6) * (np + 5)) / 2) * a[(i, l)] as usize) % 8;
         }
     }
 

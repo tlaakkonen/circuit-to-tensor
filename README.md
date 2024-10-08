@@ -21,7 +21,7 @@ If you want to use the verification feature of `circuit-to-tensor`, you will nee
 
 ## Usage
 
-There are two tools available in `circuit-to-tensor`, which are exposed as subcommands `compile` and `resynth` of the main binary. An end to end example of using both tools is given in the `examples/` folder.
+There are three tools available in `circuit-to-tensor`, which are exposed as subcommands `compile`, `resynth`, and `verify` of the main binary. An end to end example of using them is given in the `examples/` folder.
 
 `compile` is used to compile a Clifford+T circuit into a (set of) binary tensors for optimization, and can be run as `circuit-to-tensor compile <OUTPUT> <FILE>`, where `<OUTPUT>` is a directory in which to place the outputs, and `<FILE>` is a `.qasm` file containing the quantum circuit (only OpenQASM v2 is supported). The `-z` flag enables a pre-optimization step using [QuiZX](https://github.com/zxcalc/quizx), which is recommended to achieve the lowest T-counts. The `-v` flag can be used to verify that the compiled circuits are correct using `feynver`, although this may be very slow (or inconclusive) for larger circuits. The usage is as follows:
 ```
@@ -115,6 +115,22 @@ Options:
 
   -V, --version
           Print version information
+```
+
+`verify` is a simple wrapper over the `feynver` verification tool that converts input `.qasm` files into a format that `feynver` will accept:
+```
+Verify that two qasm circuits are the same using `feynver`
+
+Usage: circuit-to-tensor verify [OPTIONS] <ORIGINAL> <NEW>
+
+Arguments:
+  <ORIGINAL>  Original .qasm circuit file
+  <NEW>       New .qasm file to compare against
+
+Options:
+  -o, --opaque   Whether to insert opaque definitions of common gates
+  -h, --help     Print help information
+  -V, --version  Print version information
 ```
 
 ## Output Format

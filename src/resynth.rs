@@ -185,7 +185,7 @@ pub fn main(args: Args) {
                     return
                 };
 
-                if orig.shape() != matrix.shape() {
+                if orig.shape()[0] != matrix.shape()[0] {
                     pb.set_message(format!("  Error - original decomposition for `{}` has the wrong shape, skipping", file.display()));
                     return
                 }
